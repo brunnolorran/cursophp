@@ -11,6 +11,6 @@
         echo "Olá, Mundo! \u{1F30D}";
         ?>
     </h1>
-    <p>Vamos tentar nos livrar da maldição</p>
+    <p>Vamos tentar nos livrar da maldição!</p>
 </body>
-</html>
+</html>  
