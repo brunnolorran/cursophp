@@ -12,9 +12,9 @@
     </header>
     <main>
         <?php 
-            $numerodigitado = $_GET["numero"] ?? "Nenhum";
-            // $antecessor = $numerodigitado - 1;
-            // $sucessor = $numerodigitado + 1;
+            $numerodigitado = $_GET["numero"];
+            $antecessor = $numerodigitado - 1;
+            $sucessor = $numerodigitado + 1;
             echo "
                     <p>O numero escolhido foi <strong>$numerodigitado</strong></p>
                     <p>O seu antecessor é <strong>$antecessor</strong></p>
