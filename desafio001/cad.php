@@ -12,7 +12,7 @@
     </header>
     <main>
         <?php 
-            $numerodigitado = $_GET["numero"];
+            $numerodigitado = intval($_GET["numero"]) ?? 0;
             $antecessor = $numerodigitado - 1;
             $sucessor = $numerodigitado + 1;
             echo "
