@@ -11,10 +11,10 @@
         <h1>Trabalhando com números aleatórios</h1>
         <p>Gerando um número aleatórios de 0 a 100...</p>
         <?php 
-        $numerorandomico = rand(1,100);
+        $numerorandomico = mt_rand(1,100);
             echo "<p>O número gerado foi <strong>$numerorandomico</strong></p>"
         ?>
-        <a href="."><button>🔄 Gerar outro</button></a>
+        <button onclick="window.location.reload()">🔄 Gerar outro</button>
     </section>
 </body>
 </html>
