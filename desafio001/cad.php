@@ -19,9 +19,7 @@
                     <p>O seu sucessor é <strong>".($numerodigitado + 1)."</strong></p>
             ";
         ?>
-        <a href="javascript:history.go(-1)">
-            <button>&larr; Voltar</button>
-        </a>
+        <button onclick="javascript:window.location.href='index.html'">&larr; Voltar</button>
     </main>
 </body>
 </html>
