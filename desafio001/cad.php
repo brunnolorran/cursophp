@@ -13,12 +13,10 @@
     <main>
         <?php 
             $numerodigitado = intval($_GET["numero"]) ?? 0;
-            $antecessor = $numerodigitado - 1;
-            $sucessor = $numerodigitado + 1;
             echo "
-                    <p>O numero escolhido foi <strong>$numerodigitado</strong></p>
-                    <p>O seu antecessor é <strong>$antecessor</strong></p>
-                    <p>O seu sucessor é <strong>$sucessor</strong></p>
+                    <p>O número escolhido foi <strong>$numerodigitado</strong></p>
+                    <p>O seu antecessor é <strong>".($numerodigitado - 1)."</strong></p>
+                    <p>O seu sucessor é <strong>".($numerodigitado + 1)."</strong></p>
             ";
         ?>
         <a href="javascript:history.go(-1)">
